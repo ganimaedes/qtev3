@@ -29,7 +29,7 @@ file(GLOB HEADERS *.h ${EV3}/*.h)
 file(GLOB SOURCES *.cpp ${EV3}/*.cpp)
 
 set(CMAKE_CXX_STANDARD 14)
-set(CMAKE_CXX_COMPILER "/media/ubuntu-gnome/_home/home2/cquery/build/clang+llvm-6.0.1-x86_64-linux-gnu-ubuntu-16.04/bin/clang++")
+#set(CMAKE_CXX_COMPILER ".../cquery/build/clang+llvm-6.0.1-x86_64-linux-gnu-ubuntu-16.04/bin/clang++")
 set(CMAKE_SHARED_LINKER_FLAGS "-lstdc++ -Wl,--no-as-needed -ldl -lqwt -v")
 set(CMAKE_CXX_FLAGS  "${CMAKE_CXX_FLAGS} ${CMAKE_SHARED_LINKER_FLAGS}")
 

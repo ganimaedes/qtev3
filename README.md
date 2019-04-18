@@ -2,7 +2,7 @@
 
 # About
 
-This software is an attempt to bring Leo Liberti's Ev3 solver to compute symbolic derivatives to a graphical user interface. Qt5 and Mathml are used here to achieve this interface. 
+This software is an attempt to bring Leo Liberti's Ev3 solver to compute symbolic derivatives to a graphical user interface application. Qt5 and Mathml are used here to achieve this interface. 
 
 For the original source code Ev3: see here (http://www.lix.polytechnique.fr/~liberti/academic.html)
 
@@ -14,8 +14,10 @@ g++ or clang compiler for C++11
 
 ## Compile from source
 cd qtev3/
+
 cmake && make -j4
 
 ## Known Issues
 -Negative Trigonometric Functions 
+
 -Overflow of parentheses
