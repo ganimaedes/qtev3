@@ -1,0 +1,43 @@
+<math>
+    <mrow>
+        <mn>
+            3
+        </mn>
+        <mover accent="true">
+            <mi>
+                &imath;
+            </mi>
+            <mi>
+                ^
+            </mi>
+        </mover>
+        <mo>
+            +
+        </mo>
+        <mn>
+            2
+        </mn>
+        <mover accent="true">
+            <mi>
+                &jmath;
+            </mi>
+            <mi>
+                ^
+            </mi>
+        </mover>
+        <mo>
+            +
+        </mo>
+        <mn>
+            5
+        </mn>
+        <mover accent="true">
+            <mi>
+                k
+            </mi>
+            <mi>
+                ^
+            </mi>
+        </mover>
+    </mrow>
+</math>

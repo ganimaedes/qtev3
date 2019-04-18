@@ -1,0 +1,32 @@
+[
+{
+  "directory": "/home/ubuntu-gnome/qwtq/build",
+  "command": "/media/ubuntu-gnome/_home/home2/cquery/build/clang+llvm-6.0.1-x86_64-linux-gnu-ubuntu-16.04/bin/clang++  -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NO_DEBUG -DQT_WIDGETS_LIB -DQT_XML_LIB -I/home/ubuntu-gnome/qwtq/build -I/home/ubuntu-gnome/qwtq -I/home/ubuntu-gnome/qwtq/build/qwtq_autogen/include -I/home/ubuntu-gnome/qwtq/. -I/usr/lib/libqwt-qt5.so -I/usr/include/qwt -isystem /usr/include/x86_64-linux-gnu/qt5 -isystem /usr/include/x86_64-linux-gnu/qt5/QtWidgets -isystem /usr/include/x86_64-linux-gnu/qt5/QtGui -isystem /usr/include/x86_64-linux-gnu/qt5/QtCore -isystem /usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++-64 -isystem /usr/include/x86_64-linux-gnu/qt5/QtXml  -fPIC   -fPIC -std=gnu++14 -o CMakeFiles/qwtq.dir/main.cpp.o -c /home/ubuntu-gnome/qwtq/main.cpp",
+  "file": "/home/ubuntu-gnome/qwtq/main.cpp"
+},
+{
+  "directory": "/home/ubuntu-gnome/qwtq/build",
+  "command": "/media/ubuntu-gnome/_home/home2/cquery/build/clang+llvm-6.0.1-x86_64-linux-gnu-ubuntu-16.04/bin/clang++  -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NO_DEBUG -DQT_WIDGETS_LIB -DQT_XML_LIB -I/home/ubuntu-gnome/qwtq/build -I/home/ubuntu-gnome/qwtq -I/home/ubuntu-gnome/qwtq/build/qwtq_autogen/include -I/home/ubuntu-gnome/qwtq/. -I/usr/lib/libqwt-qt5.so -I/usr/include/qwt -isystem /usr/include/x86_64-linux-gnu/qt5 -isystem /usr/include/x86_64-linux-gnu/qt5/QtWidgets -isystem /usr/include/x86_64-linux-gnu/qt5/QtGui -isystem /usr/include/x86_64-linux-gnu/qt5/QtCore -isystem /usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++-64 -isystem /usr/include/x86_64-linux-gnu/qt5/QtXml  -fPIC   -fPIC -std=gnu++14 -o CMakeFiles/qwtq.dir/mainwindow.cpp.o -c /home/ubuntu-gnome/qwtq/mainwindow.cpp",
+  "file": "/home/ubuntu-gnome/qwtq/mainwindow.cpp"
+},
+{
+  "directory": "/home/ubuntu-gnome/qwtq/build",
+  "command": "/media/ubuntu-gnome/_home/home2/cquery/build/clang+llvm-6.0.1-x86_64-linux-gnu-ubuntu-16.04/bin/clang++  -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NO_DEBUG -DQT_WIDGETS_LIB -DQT_XML_LIB -I/home/ubuntu-gnome/qwtq/build -I/home/ubuntu-gnome/qwtq -I/home/ubuntu-gnome/qwtq/build/qwtq_autogen/include -I/home/ubuntu-gnome/qwtq/. -I/usr/lib/libqwt-qt5.so -I/usr/include/qwt -isystem /usr/include/x86_64-linux-gnu/qt5 -isystem /usr/include/x86_64-linux-gnu/qt5/QtWidgets -isystem /usr/include/x86_64-linux-gnu/qt5/QtGui -isystem /usr/include/x86_64-linux-gnu/qt5/QtCore -isystem /usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++-64 -isystem /usr/include/x86_64-linux-gnu/qt5/QtXml  -fPIC   -fPIC -std=gnu++14 -o CMakeFiles/qwtq.dir/qwtq.cpp.o -c /home/ubuntu-gnome/qwtq/qwtq.cpp",
+  "file": "/home/ubuntu-gnome/qwtq/qwtq.cpp"
+},
+{
+  "directory": "/home/ubuntu-gnome/qwtq/build",
+  "command": "/media/ubuntu-gnome/_home/home2/cquery/build/clang+llvm-6.0.1-x86_64-linux-gnu-ubuntu-16.04/bin/clang++  -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NO_DEBUG -DQT_WIDGETS_LIB -DQT_XML_LIB -I/home/ubuntu-gnome/qwtq/build -I/home/ubuntu-gnome/qwtq -I/home/ubuntu-gnome/qwtq/build/qwtq_autogen/include -I/home/ubuntu-gnome/qwtq/. -I/usr/lib/libqwt-qt5.so -I/usr/include/qwt -isystem /usr/include/x86_64-linux-gnu/qt5 -isystem /usr/include/x86_64-linux-gnu/qt5/QtWidgets -isystem /usr/include/x86_64-linux-gnu/qt5/QtGui -isystem /usr/include/x86_64-linux-gnu/qt5/QtCore -isystem /usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++-64 -isystem /usr/include/x86_64-linux-gnu/qt5/QtXml  -fPIC   -fPIC -std=gnu++14 -o CMakeFiles/qwtq.dir/widget.cpp.o -c /home/ubuntu-gnome/qwtq/widget.cpp",
+  "file": "/home/ubuntu-gnome/qwtq/widget.cpp"
+},
+{
+  "directory": "/home/ubuntu-gnome/qwtq/build",
+  "command": "/media/ubuntu-gnome/_home/home2/cquery/build/clang+llvm-6.0.1-x86_64-linux-gnu-ubuntu-16.04/bin/clang++  -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NO_DEBUG -DQT_WIDGETS_LIB -DQT_XML_LIB -I/home/ubuntu-gnome/qwtq/build -I/home/ubuntu-gnome/qwtq -I/home/ubuntu-gnome/qwtq/build/qwtq_autogen/include -I/home/ubuntu-gnome/qwtq/. -I/usr/lib/libqwt-qt5.so -I/usr/include/qwt -isystem /usr/include/x86_64-linux-gnu/qt5 -isystem /usr/include/x86_64-linux-gnu/qt5/QtWidgets -isystem /usr/include/x86_64-linux-gnu/qt5/QtGui -isystem /usr/include/x86_64-linux-gnu/qt5/QtCore -isystem /usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++-64 -isystem /usr/include/x86_64-linux-gnu/qt5/QtXml  -fPIC   -fPIC -std=gnu++14 -o CMakeFiles/qwtq.dir/qrc_completer.cpp.o -c /home/ubuntu-gnome/qwtq/build/qrc_completer.cpp",
+  "file": "/home/ubuntu-gnome/qwtq/build/qrc_completer.cpp"
+},
+{
+  "directory": "/home/ubuntu-gnome/qwtq/build",
+  "command": "/media/ubuntu-gnome/_home/home2/cquery/build/clang+llvm-6.0.1-x86_64-linux-gnu-ubuntu-16.04/bin/clang++  -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NO_DEBUG -DQT_WIDGETS_LIB -DQT_XML_LIB -I/home/ubuntu-gnome/qwtq/build -I/home/ubuntu-gnome/qwtq -I/home/ubuntu-gnome/qwtq/build/qwtq_autogen/include -I/home/ubuntu-gnome/qwtq/. -I/usr/lib/libqwt-qt5.so -I/usr/include/qwt -isystem /usr/include/x86_64-linux-gnu/qt5 -isystem /usr/include/x86_64-linux-gnu/qt5/QtWidgets -isystem /usr/include/x86_64-linux-gnu/qt5/QtGui -isystem /usr/include/x86_64-linux-gnu/qt5/QtCore -isystem /usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++-64 -isystem /usr/include/x86_64-linux-gnu/qt5/QtXml  -fPIC   -fPIC -std=gnu++14 -o CMakeFiles/qwtq.dir/qwtq_autogen/mocs_compilation.cpp.o -c /home/ubuntu-gnome/qwtq/build/qwtq_autogen/mocs_compilation.cpp",
+  "file": "/home/ubuntu-gnome/qwtq/build/qwtq_autogen/mocs_compilation.cpp"
+}
+]
