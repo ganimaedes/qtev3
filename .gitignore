@@ -1,0 +1,39 @@
+# Precompiled Headers
+*.gch
+*.pch
+
+# Fortran module files
+*.mod
+*.smod
+
+# Compiled Static libraries
+*.lai
+*.la
+*.a
+*.lib
+
+# Others
+# *.ac
+# *.am
+*.m4
+configure
+*.cache
+compile
+depcomp
+missing
+*.log
+config.*
+*-sh
+NOTES
+*.in
+Makefile
+.deps
+.libs
+*.in~
+*-h1
+ltmain.sh
+libtool
+FONCTIONNE*
+search
+*.json
+fraction.*
