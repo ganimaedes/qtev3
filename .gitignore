@@ -42,3 +42,7 @@ completer.pro
 *.cpp.swp
 *.h.swp
 qtev3
+TargetDirectories.txt
+CMakeRuleHashes.txt
+cmake.check_cache
+Makefile.cmake
