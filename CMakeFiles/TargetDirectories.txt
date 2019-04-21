@@ -1,4 +1,4 @@
-/home/ubuntu-gnome/qwtq/CMakeFiles/rebuild_cache.dir
-/home/ubuntu-gnome/qwtq/CMakeFiles/edit_cache.dir
-/home/ubuntu-gnome/qwtq/CMakeFiles/qwtq.dir
-/home/ubuntu-gnome/qwtq/CMakeFiles/qwtq_autogen.dir
+/home/ubuntu-gnome/qtev3/CMakeFiles/rebuild_cache.dir
+/home/ubuntu-gnome/qtev3/CMakeFiles/edit_cache.dir
+/home/ubuntu-gnome/qtev3/CMakeFiles/qtev3.dir
+/home/ubuntu-gnome/qtev3/CMakeFiles/qtev3_autogen.dir

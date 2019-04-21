@@ -5,6 +5,7 @@
 #include <algorithm>
 #include "formulaview.h"
 #include "answer.h"
+#include "parentheses.h"
 
 #include "ev3/expression.h"
 #include "ev3/parser.h"
@@ -236,8 +237,8 @@ std::string MainWindow::refactorFinalAnswer(std::string &str)
 {
     std::string df = "d", dx = "dx";
 
-    return "<mfrac><mrow><mi>" + df + "</mi>" + str + "</mrow><mi>" + dx + "</mi></mfrac>";
-    
+    return "<mfrac><mrow><mi>" + df + "</mi></mrow><mi>" + dx + "</mi></mfrac>" + str;
+    //return "<mfrac><mrow><mi>" + df + "</mi>" + str + "</mrow><mi>" + dx + "</mi></mfrac>";
 }
 
 bool MainWindow::hasFractionInResponse(QString &response)
@@ -305,6 +306,7 @@ void MainWindow::receivedLineCommand(QString &command)
             std::string math;
             std::string commande = str_comm.at(i).toStdString();
             std::string resp;
+            Parentheses par(resp);
             if (str_comm.at(i).size() > 2) {
             	Remap my_map(commande);
             	math = my_map.getMathml();
@@ -335,14 +337,20 @@ void MainWindow::receivedLineCommand(QString &command)
                         soln_resp = QString::fromStdString(resp);
                 qDebug() << "soln = " << soln << "\n"
                     << "soln_resp = " << soln_resp << "\n";
-                                
+                std::string solution = soln.toStdString();               
+                par.setInput(solution);
+                QString s_string = QString::fromStdString(par.getModifiedInput());
+                qDebug() << "par = " << QString::fromStdString(par.getModifiedInput()) << "\n";
+                qDebug() << "par copy = " << s_string << "\n";
                //Remap soln_map(resp);
                //std::string getmathml = soln_map.getMathml(); 
                //qDebug() << "SOLUTION_MAP = " << QString::fromStdString(getmathml) << "\n";
             }
             std::string soln_diff_eqn; 
             if (resp.empty()) {
-                Remap solution_diff(solved);
+                std::string strSolved = par.getModifiedInput();
+                Remap solution_diff(strSolved);
+//solved
                 soln_diff_eqn = solution_diff.getMathml();
                 qDebug() << "\t\t1st RESP" << QString::fromStdString(soln_diff_eqn);
             } else {
@@ -356,6 +364,7 @@ void MainWindow::receivedLineCommand(QString &command)
             }
             qDebug() << "\t\t\t\tMATH = " << QString::fromStdString(math) << "\n\n\n";
             std::string ref = refactorFinalAnswer(math); // (math)
+            qDebug() << "\t\t\t\tREF = " << QString::fromStdString(ref) << "\n\n\n";
             std::string reponse = ref + "<mo>=</mo>" + soln_diff_eqn;
             QString fin = "<math>" + QString::fromStdString(reponse) + "</math>";
             qDebug() << "fin = " << fin << "\n";

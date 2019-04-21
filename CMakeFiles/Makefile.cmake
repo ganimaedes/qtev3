@@ -61,6 +61,6 @@ set(CMAKE_MAKEFILE_PRODUCTS
 
 # Dependency information for all targets:
 set(CMAKE_DEPEND_INFO_FILES
-  "CMakeFiles/qwtq.dir/DependInfo.cmake"
-  "CMakeFiles/qwtq_autogen.dir/DependInfo.cmake"
+  "CMakeFiles/qtev3.dir/DependInfo.cmake"
+  "CMakeFiles/qtev3_autogen.dir/DependInfo.cmake"
   )

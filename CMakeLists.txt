@@ -1,5 +1,5 @@
 cmake_minimum_required(VERSION 3.04)
-project(qwtq)
+project(qtev3)
 
 # Find includes in corresponding build directories
 set(CMAKE_INCLUDE_CURRENT_DIR ON)
@@ -22,7 +22,7 @@ include_directories(.)
 include_directories(${QWT_LIBRARY})
 include_directories(${Qwt_DIR})
 
-set(EV3 "/home/ubuntu-gnome/qwtq/ev3")
+set(EV3 "/home/ubuntu-gnome/qtev3/ev3")
 include_directories(${EV3})
 
 file(GLOB HEADERS *.h ${EV3}/*.h)
@@ -37,7 +37,7 @@ set(qwt_libraries ${QWT_LIBRARY})
 
 qt5_add_resources(RSC completer.qrc)
 set_property(SOURCE qrc_completer.cpp PROPERTY SKIP_AUTOMOC ON) 
-add_executable(qwtq ${HEADERS} ${SOURCES} ${RSC}) 
+add_executable(qtev3 ${HEADERS} ${SOURCES} ${RSC}) 
 
 # The Qt5Widgets_INCLUDES also includes the include directories for
   # dependencies QtCore and QtGui
@@ -57,4 +57,4 @@ add_executable(qwtq ${HEADERS} ${SOURCES} ${RSC})
   set(CMAKE_CXX_FLAGS "${Qt5Widgets_EXECUTABLE_COMPILE_FLAGS}")
 
 # Use the Widgets module from Qt 5.
-target_link_libraries(qwtq Qt5::Widgets Qt5::Xml ${qwt_libraries})
+target_link_libraries(qtev3 Qt5::Widgets Qt5::Xml ${qwt_libraries})
