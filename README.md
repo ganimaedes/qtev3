@@ -6,10 +6,19 @@ This software is an attempt to bring Leo Liberti's Ev3 solver to compute symboli
 
 For the original source code Ev3: see here (http://www.lix.polytechnique.fr/~liberti/academic.html)
 
-Qwt MathML Renderer are by Josef Wilgen, Uwe Rathmann and Alan Garny.
+Qwt MathML Renderer files were written by Josef Wilgen, Uwe Rathmann and Alan Garny.
 
-## Prerequisites
-Qt5
+## Prerequisites & Dependencies
+Qt5 files:
+
+qt5-default 
+
+libqt5svg5-dev 
+
+qttools5-dev 
+
+libqwt-qt5-dev
+
 g++ or clang compiler for C++11
 
 ## Compile from source

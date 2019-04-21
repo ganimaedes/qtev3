@@ -37,3 +37,8 @@ FONCTIONNE*
 search
 *.json
 fraction.*
+
+completer.pro
+*.cpp.swp
+*.h.swp
+qtev3
