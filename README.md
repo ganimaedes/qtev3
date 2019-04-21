@@ -8,8 +8,10 @@ For the original source code Ev3: see here (http://www.lix.polytechnique.fr/~lib
 
 Qwt MathML Renderer files were written by Josef Wilgen, Uwe Rathmann and Alan Garny.
 
+Simple C++ Lexer Toolkit Library was written by Arash Partow. (modified)
+
 ## Prerequisites & Dependencies
-Qt5 files:
+Qt5 :
 
 qt5-default 
 
